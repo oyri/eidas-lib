@@ -10,9 +10,16 @@
     <version>DEV-SNAPSHOT</version>
 
     <dependency>
-    <groupId>eu.eidas</groupId>
-    <artifactId>eidas-commons</artifactId>
-    <version>2.7.1</version>
+             <groupId>eu.eidas</groupId>
+             <artifactId>eidas-commons</artifactId>
+             <version>2.7.1</version>
   </dependency>
-
+         
+  <repositories>
+        <repository>
+            <id>github</id>
+            <name>GitHub oyri Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/oyri/eidas-lib</url>
+        </repository>
+    </repositories>
 </project>
