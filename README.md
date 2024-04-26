@@ -8,7 +8,7 @@ Prerequisite:
 - folder of your choice (do not need a pom.xml here)
 - maven installed
 - your jar-fil is in the current folder
-- settings.xml as described below in same folder with github token with package.write + repo
+- settings.xml as described below in same folder with github token (classic) with package.write + repo
 
 RUN:
 ```
