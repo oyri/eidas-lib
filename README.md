@@ -1,4 +1,3 @@
-# idporten-elk
-Elasticsearch, Logstash og Kibana for ID-porten
+# eidas-lib
 
 [security advice](./security/advisories/new)
