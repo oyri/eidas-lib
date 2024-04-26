@@ -8,12 +8,13 @@
     <groupId>no.oyri</groupId>
     <artifactId>eidas-lib</artifactId>
     <version>DEV-SNAPSHOT</version>
-
+<dependencies>
     <dependency>
              <groupId>eu.eidas</groupId>
              <artifactId>eidas-commons</artifactId>
              <version>2.7.1</version>
   </dependency>
+</dependencies>   
          
   <repositories>
         <repository>
