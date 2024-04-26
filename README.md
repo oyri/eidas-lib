@@ -4,7 +4,13 @@
 
 
 ## upload external jars
+Prerequisite:
+- folder of your choice (do not need a pom.xml here)
+- maven installed
+- your jar-fil is in the current folder
+- settings.xml as described below in same folder
 
+RUN:
 ```
 mvn -s settings.xml deploy:deploy-file -Dfile=eidas-saml-engine-2.7.1.jar -DrepositoryId=github -Durl=https://maven.pkg.github.com/oyri/eidas-lib
 ```
