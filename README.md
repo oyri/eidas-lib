@@ -8,7 +8,7 @@ Prerequisite:
 - folder of your choice (do not need a pom.xml here)
 - maven installed
 - your jar-fil is in the current folder
-- settings.xml as described below in same folder
+- settings.xml as described below in same folder with github token with package.write + repo
 
 RUN:
 ```
@@ -37,3 +37,10 @@ Where settings.xml has this content:
   </servers>
 </settings>
 ```
+
+## upload external pom.xml
+
+```
+mvn -s settings.xml deploy:deploy-file -DpomFile=eidas-parent-2.7.1.pom -DrepositoryId=github -Durl=https://maven.pkg.github.com/oyri/eidas-lib -DartifactId=eidas-parent -Dgroupid=eu.eidas -Dversion=2.7.1 -Dpackaging=pom -Dfile=eidas-parent-2.7.1.pom
+```
+Maybe not nessasary with -DartifactId=eidas-parent -Dgroupid=eu.eidas -Dversion=2.7.1 -Dpackaging=pom.
